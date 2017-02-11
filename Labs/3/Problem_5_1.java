@@ -53,7 +53,7 @@ public class Problem_5_1 {
       //Display Results 
       System.out.println("The number of positives is " + positive);
       System.out.println("The number of negatives is " + negative);
-      System.out.println("The total is " + count);
+      System.out.println("The total is " + count); // JA: The total should be sum, not count
       System.out.println("The average is " + average);
 
     }

@@ -5,7 +5,7 @@ public class Problem_6_1 {
   public static void main(String[] args) {
     int number;
     //Do equations from 1 though 100 
-    for(int n = 1; n < 100; n++) {
+    for(int n = 1; n < 100; n++) { // JA: You missed the last term
       number = getPentagonalNumber(n);
       System.out.print(number + " "); 
       if(n % 10 == 0){
