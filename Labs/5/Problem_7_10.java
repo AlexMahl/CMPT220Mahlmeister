@@ -23,7 +23,7 @@ public class Problem_7_10 {
     double minimum = array[0];
     int minimumIndex = 0;
     for (int i= 1; i < array.length; i++) {
-      if (array[i] < minimum){
+      if (array[i] < minimum){ // JA: Here you need to compare to array[minimum], not minimum
         minimum = array[i];
         minimumIndex = i;
       }
