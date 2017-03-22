@@ -26,23 +26,23 @@ public class Problem_10_5 {
   private static StackOfIntegers smallestFactors(int number){
     
     //Create a stack 
-    StackOfIntegers returnStack = new StackOfIntegers();
+    StackOfIntegers primeTest = new StackOfIntegers();
     
     //Test for Prime Factor 
-    int testFactor = 2;
+    int testPrime = 2;
    
     while (number != 1) {
-      if (number % testFactor == 0) { 
-      returnStack.push(testFactor);
-      number = number / testFactor;
-    }else{
-      if(testFactor == 2){
-      testFactor++;
-    }else{ 
-      testFactor += 2;
+      if (number % testPrime == 0) { 
+        primeTest.push(testPrime);
+        number /= testPrime;
+     }else{
+       if(testPrime == 2){
+        testPrime++;
+     }else{ 
+         testPrime += 2;
        }
       }
     }
-    return returnStack;
+    return primeTest;
   }
 }
