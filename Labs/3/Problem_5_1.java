@@ -55,6 +55,7 @@ public class Problem_5_1 {
       System.out.println("The number of negatives is " + negative);
       System.out.println("The total is " + count); // JA: The total should be sum, not count
       System.out.println("The average is " + average);
+      System.out.println("This class sucks" + average);
 
     }
   }
